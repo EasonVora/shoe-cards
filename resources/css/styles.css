@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #D2AB99;
+}
+
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 0 20px;
+}
+
+/* Card */
+.card {
+    background-color: #034F35;
+    margin: 20px 0;
+    padding: 20px 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px #56876D;
+}
+
+.card h2 {
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+
+.card p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #8DB38B;
+    margin-bottom: 30px;
+}
+
+/* Heading Colors */
+.card-sporty h2 {
+    color: #ff6060;
+}
+.card-casual h2 {
+    color: #6272ff;
+}
+.card-formal h2 {
+    color: #b19c62;
+}
+/* End of Heading Colors */
+
+/* Card Links */
+.card a {
+    text-decoration: none;
+    background-color: #034F35;
+    color:rgb(0, 117, 117);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.card a:hover {
+    opacity: 0.7;
+}
+/* End of Card Links */
+
+/* Link Colors */
+.card-sporty a {
+    background-color:#BDBEA9;
+}
+.card-casual a {
+    background-color:#BDBEA9;
+}
+.card-formal a {
+    background-color:#BDBEA9;
+}
+/* End of Link Colors */
+
+/* Background Images */
+.card-sporty {
+    background: #034F35 url(../images/sporty.png) no-repeat center right/200px;
+}
+.card-casual {
+    background: #034F35 url(../images/casual.png) no-repeat center right/200px;
+}
+.card-formal {
+    background: #034F35 url(../images/formal.png) no-repeat center right/200px;
+}
